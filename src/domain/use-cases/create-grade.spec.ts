@@ -7,7 +7,7 @@ test("must be possible create a new grade", () => {
     const grade = createGrade.execute({
         matterId: '1',
         score: 9.5,
-        studentId: '1'
+        studentId: "1"
     })
 
     expect(grade.score).toEqual(9.5);
